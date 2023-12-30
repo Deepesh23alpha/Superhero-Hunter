@@ -27,13 +27,7 @@ const toggleFav = (type,id)=>{
     localStorage.setItem(type,idString);
     console.log(localStorage.getItem(type));
 
-    //if request comes from favourite page remove card from DOM
-    if((window.location.href).split('/').splice(-1)=='favorite.html'){
-        if(type=='favComic'){
-            document.getElementById(`comic-${id}`).remove();
-        }
-        document.getElementById(`character-${id}`).remove();
-    }
+    
 }
 
 //check if a character is present in favourite list
