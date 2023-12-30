@@ -1,1 +1,1 @@
-# Superhero-Hunter
+This is a Superhero Hunter web application built using JavaScript, HTML, and CSS that allows it's users to search for their favorite Marvel Superheroes and view their detailed information. The app also allows users to add their favourite characters to favorites for easy access. Users can also remove characters from favourites as per their liking.
